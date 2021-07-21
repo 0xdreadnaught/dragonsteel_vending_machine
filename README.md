@@ -7,6 +7,7 @@ Ice and Fire currently has issues with bricking user interaction after smelting 
 * Update the XYZ coordinates of the oak button on line 10. This can be found in the "target block" field of the F3 screen.
 * Place an Ice, Fire, and/or Lightning dragon egg in the chest underneath the computer. This will unlock related ingots.
 * With dragon blood and iron ingots in your inventory, click the oak button.
+* Rename script to "startup" if you want it to run every time the computer boots.
 
 The oak button allows non OP users to interact with the vending machine. 
 If you do not wish to see the give/remove item spam in the chat log you can run `/gamerule SendCommandFeedback false`.
