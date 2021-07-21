@@ -56,9 +56,9 @@ while true do
 
             --if true give fire dragonsteel
             if (ironingot and fireblood and fire) then
-                commands.exec("clear fatalmind minecraft:iron_ingot 1")
-                commands.exec("clear fatalmind iceandfire:fire_dragon_blood 1")
-                commands.exec("give fatalmind iceandfire:dragonsteel_fire_ingot 1")
+                commands.exec("clear @p minecraft:iron_ingot 1")
+                commands.exec("clear @p iceandfire:fire_dragon_blood 1")
+                commands.exec("give @p iceandfire:dragonsteel_fire_ingot 1")
             end
 
             --update iron ingot count
@@ -66,9 +66,9 @@ while true do
 
             --if true give ice dragonsteel
             if (ironingot and iceblood and ice) then
-                commands.exec("clear fatalmind minecraft:iron_ingot 1")
-                commands.exec("clear fatalmind iceandfire:ice_dragon_blood 1")
-                commands.exec("give fatalmind iceandfire:dragonsteel_ice_ingot 1")
+                commands.exec("clear @p minecraft:iron_ingot 1")
+                commands.exec("clear @p iceandfire:ice_dragon_blood 1")
+                commands.exec("give @p iceandfire:dragonsteel_ice_ingot 1")
             end
 
             --update iron ingot count
@@ -76,9 +76,9 @@ while true do
 
             --if true give lightning dragonsteel
             if (ironingot and lightningblood and lightning) then
-                commands.exec("clear fatalmind minecraft:iron_ingot 1")
-                commands.exec("clear fatalmind iceandfire:lightning_dragon_blood 1")
-                commands.exec("give fatalmind iceandfire:dragonsteel_lightning_ingot 1")
+                commands.exec("clear @p minecraft:iron_ingot 1")
+                commands.exec("clear @p iceandfire:lightning_dragon_blood 1")
+                commands.exec("give @p iceandfire:dragonsteel_lightning_ingot 1")
             end
 
             --stop vending if no more reagent sets
