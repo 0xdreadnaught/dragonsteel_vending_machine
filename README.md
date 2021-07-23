@@ -9,6 +9,8 @@ Ice and Fire currently has issues with bricking user interaction after smelting 
 * With dragon blood and iron ingots in your inventory, click the oak button.
 * Rename script to "startup" if you want it to run every time the computer boots.
 
+For ATM6 alloys, the proper dragon egg type needs to be in the chest.
+
 The oak button allows non OP users to interact with the vending machine. 
 If you do not wish to see the give/remove item spam in the chat log you can run `/gamerule SendCommandFeedback false`.
 Not that setting feedback to false will suppress feedback from any op command.
