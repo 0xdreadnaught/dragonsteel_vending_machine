@@ -45,7 +45,7 @@ while true do
          unobtainiumingot = commands.exec('execute if entity @p[nbt={Inventory:[{id:"allthemodium:unobtainium_ingot"}]}]')
 
          --if true give unobtainium/allthemodium ingot
-         if (allthemodiumingot and unobtainiumingot) then
+         if (allthemodiumingot and unobtainiumingot and lightning) then
             commands.exec("clear @p allthemodium:allthemodium_ingot 1")
             commands.exec("clear @p allthemodium:unobtainium_ingot 1")
             commands.exec("give @p allthemodium:unobtainium_allthemodium_alloy_ingot 1")
@@ -56,7 +56,7 @@ while true do
          unobtainiumingot = commands.exec('execute if entity @p[nbt={Inventory:[{id:"allthemodium:unobtainium_ingot"}]}]')
 
          --if true give unobtainium/vibranium ingot
-         if (unobtainiumingot and vibraniumingot) then
+         if (unobtainiumingot and vibraniumingot and fire) then
             commands.exec("clear @p allthemodium:unobtainium_ingot 1")
             commands.exec("clear @p allthemodium:vibranium_ingot 1")
             commands.exec("give @p allthemodium:unobtainium_vibranium_alloy_ingot 1")
@@ -67,7 +67,7 @@ while true do
          unobtainiumingot = commands.exec('execute if entity @p[nbt={Inventory:[{id:"allthemodium:unobtainium_ingot"}]}]')
 
          --if true give vibranium/allthemodium ingot
-         if (vibraniumingot and allthemodiumingot) then
+         if (vibraniumingot and allthemodiumingot and ice) then
             commands.exec("clear @p allthemodium:vibranium_ingot 1")
             commands.exec("clear @p allthemodium:allthemodium_ingot 1")
             commands.exec("give @p allthemodium:vibranium_allthemodium_alloy_ingot 1")
